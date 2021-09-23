@@ -13,4 +13,6 @@
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
+git clone https://github.com/kiddin9/openwrt-bypass.git package/openwrt-bypass
+git clone https://github.com/kiddin9/openwrt-packages.git package/openwrt-packages
 
