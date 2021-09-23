@@ -13,7 +13,4 @@
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
-# Add a feed source
-echo 'src-git luci-app-dnsfilter https://github.com/kiddin9/luci-app-dnsfilter.git' >> feeds.conf.default
-echo 'src-git openwrt-bypass https://github.com/kiddin9/openwrt-bypass.git' >> feeds.conf.default
-echo 'src-git openwrt-packages https://github.com/kiddin9/openwrt-packages.git' >> feeds.conf.default
+
