@@ -16,3 +16,6 @@
 git clone https://github.com/kiddin9/openwrt-bypass.git package/openwrt-bypass
 git clone https://github.com/kiddin9/openwrt-packages.git package/openwrt-packages
 
+./scripts/feeds update -a &&./scripts/feeds install -a;
+make -j32 download;
+echo "依赖包下载完成"
