@@ -13,8 +13,8 @@
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
-git clone https://github.com/kiddin9/openwrt-bypass.git package/openwrt-bypass
-git clone https://github.com/kiddin9/openwrt-packages.git package/openwrt-packages
+git clone https://github.com/kiddin9/openwrt-bypass.git /workdir/openwrt/package/openwrt-bypass
+git clone https://github.com/kiddin9/openwrt-packages.git /workdir/openwrt/package/openwrt-packages
 
 ./scripts/feeds update -a &&./scripts/feeds install -a;
 make -j32 download;
