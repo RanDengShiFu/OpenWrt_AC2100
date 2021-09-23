@@ -67,11 +67,7 @@ jobs:
         chmod +x $DIY_P1_SH
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P1_SH
-    - name: 克隆bypass插件
-      run: cd openwrt/package && git clone https://github.com/kiddin9/openwrt-bypass.git
-      
-    - name: 克隆插件仓库
-      run: cd openwrt/package && git clone https://github.com/kiddin9/openwrt-packages.git
+
       
     - name: 更新feeds与更新feeds
       run: cd openwrt && ./scripts/feeds update -a && ./scripts/feeds install -a
