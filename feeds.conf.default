@@ -1,0 +1,6 @@
+src-git packages https://git.openwrt.org/feed/packages.git
+src-git luci https://git.openwrt.org/project/luci.git
+src-git routing https://git.openwrt.org/feed/routing.git
+src-git telephony https://git.openwrt.org/feed/telephony.git
+src-git openwrt-packages https://github.com/kiddin9/openwrt-packages.git
+src-git openwrt-bypass https://github.com/kiddin9/openwrt-bypass.git
