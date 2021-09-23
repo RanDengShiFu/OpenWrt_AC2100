@@ -73,11 +73,9 @@ jobs:
     - name: 克隆插件仓库
       run: cd openwrt/package && git clone https://github.com/kiddin9/openwrt-packages.git
       
-    - name: 更新 feeds
-      run: cd openwrt && ./scripts/feeds update -a
+    - name: 更新feeds与更新feeds
+      run: cd openwrt && ./scripts/feeds update -a && ./scripts/feeds install -a
 
-    - name: 安装 feeds
-      run: cd openwrt && ./scripts/feeds install -a
 
     - name: 加载自定义配置
       run: |
